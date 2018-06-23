@@ -34,7 +34,13 @@ git clone https://github.com/danilobrinu/prisma-apollo-starter.git
 # 2. Navigate to the new project
 cd prisma-apollo-starter
 
-# 3. Start server (runs on http://localhost:4000) and open GraphQL Playground
+# 3. Install dependencies
+yarn
+
+# 4. Copy environment file and update __PRISMA_ENDPOINT__
+cp example.env .env
+
+# 4. Start server (runs on http://localhost:4000) and open GraphQL Playground
 yarn dev
 ```
 
