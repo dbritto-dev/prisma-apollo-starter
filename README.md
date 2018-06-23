@@ -22,7 +22,7 @@ For a fully-fledged **GraphQL & Node.js tutorial**, visit [How to GraphQL](https
 You need to have the [GraphQL CLI](https://github.com/graphql-cli/graphql-cli) installed to bootstrap your GraphQL server using `graphql init` and [Prisma](https://github.com/graphcool/prisma) to deploy and update database using `prisma deploy`:
 
 ```sh
-npm install -g graphql-cli prisma
+npm install -g graphql-cli prisma yarn
 ```
 
 ## Getting started
