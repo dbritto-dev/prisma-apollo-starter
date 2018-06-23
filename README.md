@@ -50,7 +50,7 @@ yarn dev
 
 ### Commands
 
-* `yarn start` starts GraphQL server on (http://localhost:4000
+* `yarn start` starts GraphQL server on http://localhost:4000
 * `yarn debug` starts GraphQL server in debug mode on http://localhost:4000
 * `yarn playground` opens the GraphQL Playground for the `projects` from [`.graphqlconfig.yml`](./.graphqlconfig.yml)
 * `yarn dev` starts GraphQL server on http://localhost:4000 _and_ opens GraphQL Playground
