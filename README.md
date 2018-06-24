@@ -19,7 +19,7 @@ For a fully-fledged **GraphQL & Node.js tutorial**, visit [How to GraphQL](https
 
 ## Requirements
 
-You need to have the [GraphQL CLI](https://github.com/graphql-cli/graphql-cli) installed to bootstrap your GraphQL server using `graphql init` and [Prisma](https://github.com/graphcool/prisma) to deploy and update database using `prisma deploy`:
+You need to have the [GraphQL CLI](https://github.com/graphql-cli/graphql-cli) installed to bootstrap your GraphQL server using `graphql init`, [Prisma](https://github.com/graphcool/prisma) to deploy and update database use `prisma deploy` and [Yarn](https://yarnpkg.com/lang/en/) to install npm packages:
 
 ```sh
 npm install -g graphql-cli prisma yarn
@@ -64,7 +64,7 @@ yarn dev
 
 | File name 　　　　　　　　　　　　　　| Description 　　　　　　　　<br><br>| 
 | :--  | :--         |
-| `├── .env` | Defines environment variables |
+| `├── example.env` | Use this file to configure your enviroment (copy/paste or rename to .env) |
 | `├── .graphqlconfig.yml` | Configuration file based on [`graphql-config`](https://github.com/prisma/graphql-config) (e.g. used by GraphQL Playground).|
 | `└── database/ `  | _Contains all files that are related to the Prisma database service_ |\
 | `　　├── prisma.yml` | The root configuration file for your Prisma database service ([docs](https://www.prisma.io/docs/reference/prisma.yml/overview-and-example-foatho8aip)) |
