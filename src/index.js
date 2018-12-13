@@ -7,9 +7,7 @@ const resolvers = require('./resolvers');
 const schema = makeExecutableSchema({
   typeDefs,
   resolvers,
-  resolverValidationOptions: {
-    requireResolversForResolveType: false,
-  },
+  resolverValidationOptions: { requireResolversForResolveType: false },
 });
 
 const server = new ApolloServer({
@@ -25,4 +23,4 @@ const server = new ApolloServer({
   }),
 });
 
-server.listen().then(({ url }) => `🚀  Server ready at ${url}`);
+server.listen().then(({ url }) => console.log(`🚀  Server ready at ${url}`));
