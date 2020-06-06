@@ -6,7 +6,7 @@
     "dev": "npm-run-all --parallel start playground"
   },
   "dependencies": {
-    "apollo-server": "^2.3.0",
+    "apollo-server": "^2.14.2",
     "graphql-import": "^0.7.1",
     "prisma-binding": "^2.2.8"
   },
